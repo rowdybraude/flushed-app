@@ -1,0 +1,371 @@
+#googleMap {
+    width: 80vw;
+    max-height: 400px;
+    margin:auto;
+    border-radius:15px;
+}
+#searchOptionButtons {
+    margin: auto; 
+    width: 80vw; 
+    height: 100%;
+    padding-top: 30px;
+}
+#inputButton {
+    text-align:center;
+}
+pac-container {
+    background-color: #b80000;
+}
+body {
+    background: url(Resources/Site_Art/flushed_bgr.png);
+    background-size: 10%;
+    margin-top: 0%;
+    margin-left: 0;
+    margin-right: 0;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    color: aquamarine;
+    text-decoration: none;
+}
+#body {
+    margin-left: auto;
+    margin-right:auto;
+    border-radius: 15px; 
+    background-color: whitesmoke;
+    width: 90vw;
+    height: 87vh;
+    outline: 3px;
+    outline-color:black;
+     
+}
+#form {
+    text-align: center;
+}
+#formText { 
+    margin-bottom: 0px;
+    margin-top: 12px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#formInput {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+
+.formInput {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+}
+#formSubmit {
+    width: 70%;
+    background-color: aquamarine;
+    color:white;
+    padding: 14px 20px;
+    margin-top: 3vh;
+    left: 20%;
+    width: 60vw;
+    border: none;
+    margin-bottom: 0;
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#formSubmit:hover {
+    background-color: white;  
+    color:black;
+    outline: 1px solid black;
+}
+#formNonText {
+    display: flex;
+}
+#formNonTextSegment {
+    width:50vw;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#formFileSubmit {
+    display: inline-block;
+    padding: 6px 12px; 
+    cursor: pointer; 
+    width: 9vw; 
+}
+#pfpImg {
+    width: 22vw;
+    height: 22vw;
+    background-color: gray;
+    border-radius: 50%; 
+    margin-top: 5vh;
+    margin-left: 7vw;
+}
+#basicBtn {
+    width: 70%;
+    background-color: aquamarine;
+    color:white;
+    padding: 14px 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-radius: 4px; 
+    cursor: pointer; 
+}
+#basicBtn:hover {
+    background-color: white;  
+    color:black;
+    outline: 1px solid black;
+}
+#uploadBtnParent {
+    position: relative;
+    text-align: right;
+}
+#uploadBtnWrapper {
+    margin-right: 5vw;
+    overflow: hidden;
+    display: inline-block;
+}
+#btn {
+    margin-top: 5px; 
+    margin-bottom: 5px;
+    border: 2px solid grey; 
+    color: white;
+    background-color: aquamarine; 
+    padding: 8px 20px; 
+    border-radius: 8px;
+    font-size: 20px; 
+    font-weight: bold;
+    height: 120px;
+    width: 20vw;
+}
+#uploadBtnWrapper input[type=file] {
+    font-size: 80px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+}
+#navBar {
+    display: flex; 
+    flex-direction: row;
+    margin-bottom: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+    padding-left:8px; 
+    padding-right:8px;
+    border-radius: 0 0 10px 10px;
+}
+#reviewInputField {
+    position: relative;
+}
+#tagContainer {
+    background-color: darkgray;
+    border-radius: 4px; 
+}
+.reviewPreviewContainer {
+    display: flex; 
+    flex-direction:row; 
+    outline: 2px solid black; 
+    width: 300px;
+    height: 150px;
+    border-radius: 4px;
+    margin-left: 10px;
+    flex: 6 1 auto; 
+}
+.reviewInfo {
+    width: 70%;
+    overflow-wrap:normal;
+}
+.reviewScore {
+    width: 30%;
+    text-align: right;
+    margin-right: 20px;
+}
+.averageScore {
+    position: absolute;
+    width: 20vw;
+    height: 15vw; 
+    outline: 2px solid black;
+    margin-right: 10vw;
+    margin-left: 60vw;
+    border-radius: 4px; 
+}
+.bathroomScoreSpecifics {
+    position: absolute;
+    width: 20vw;
+    height: 35vh; 
+    margin-right: 10vw;
+    margin-left: 60vw;
+    margin-top: 300px;
+    display: flex;
+    flex-direction: row; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    text-align: right;
+}
+.bathroomScoreCategories {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.bathroomScores {
+    display: flex;
+    flex-direction: column;
+    width: 50%; 
+}
+
+.errorBox {
+    width: 350px;
+    height: 70px;
+    border-radius: 50px; 
+    text-align: center;
+    background-color: #ff7c7c; 
+    border: 2px #b80000 solid; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode';
+    margin-right: auto; 
+    margin-left: auto;
+    margin-top: 5vh;
+    padding: 5px; 
+}
+.reviewSubmit {
+    background-color: aquamarine;
+    color:white;
+    padding: 14px 20px;
+    position:absolute;
+    top: 70vh;
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 15vw;
+    border: none;
+    margin-bottom: 0;
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 1vw;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.reviewSubmit:hover {
+    background-color: white;  
+    color:black;
+    outline: 1px solid black;
+}
+.personalReviewPreview {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    width: 55vw;
+    height: 300px;  
+    padding-left: 10px;  
+    text-size-adjust:inherit;
+}
+.reviewPreviews {
+    display: flex;
+    flex-direction: row;
+    overflow: auto;
+    height: 175px; 
+    padding-top: 12px; 
+    padding-left: 10px;
+    padding-right: 10px; 
+}
+.uploadImageBtn {
+    width: 10vw;
+    height: 5vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: aquamarine;
+    outline: black 1px solid;
+    border-radius: 4px; 
+    padding: 3vw;
+    top: 100px;
+    left: 1vw;
+    position: relative;
+}
+.dropbtn {
+    background-color: aquamarine;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    width: 200px; 
+  }
+  
+.dropbtn:hover, .dropbtn:focus {
+    background-color: aquamarine;
+  }
+  
+#myTagInput {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+    width: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+  }
+  
+#myTagInput:focus {outline: 3px solid #ddd;}
+  
+.tagDropdown {
+    left: 18vw;
+    position: fixed;
+    width: 200px; 
+    height: 100px;
+  }
+  
+.tagDropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow-y: auto;
+    overflow-x:visible;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+.tagDropdown-content button {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+.tagDropdown button:hover {background-color: #ddd;}
+.selectedTags {
+    display: flex;
+    flex-direction: row;
+    background-color: grey;
+    border-radius: 4px;
+    width: 200px;
+    flex-wrap: wrap;
+}
+.tagBtn {
+    background-color: grey;
+    outline: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tagCreateBtn {
+    background-color: aquamarine;
+    outline: 2px solid black;
+    border-radius: 4px;
+    width: 200px;
+    height: 30px;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
